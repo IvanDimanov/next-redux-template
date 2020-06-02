@@ -1,0 +1,11 @@
+$baseDimension: 200px;
+
+.Spinner {
+  display: inline-block;
+}
+
+.Full {
+  position: absolute;
+  top: calc(50% - #{$baseDimension / 2});
+  left: calc(50% - #{$baseDimension / 2});
+}
